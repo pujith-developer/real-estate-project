@@ -150,8 +150,8 @@ body {
 }
 /* nav */
 .logo img {
-    width: 100px;
-    height: 70px;
+    width: 85px;
+    height: 55px;
 }
 
 .navbar {
@@ -186,17 +186,18 @@ body {
     text-align: left;
    margin: 10px auto auto 15px;  
    color:#FCF2E5;  
+   padding: 40px 0px 0px 20px;
 }
 .text-box h3{
-    font-size: 16px;
+    font-size: 19px;
 }
 .text-box h1{
-    font-size: 30px;
+    font-size: 33px;
     font-weight: 900;
     color: #3E3E75; 
 }
 .text-box p{
-    font-size:14px ;
+    font-size:17px ;
 }
 .search-box {
     width: 90%;
@@ -227,7 +228,7 @@ body {
     background-color: rgba(255, 255, 255, 0.0);
     backdrop-filter: blur(10px);
     border-radius: 3px;
-    font-size: 13px;
+    font-size: 15px;
     color: #092328;
     cursor: pointer;
 }
@@ -238,7 +239,7 @@ body {
     color: white;
     border: none;
     border-radius: 5px;
-    font-size: 13px;
+    font-size: 15px;
     cursor: pointer;
 }
 
@@ -247,8 +248,8 @@ body {
 }
 .get button{
     width: 100px;height: 32px;
-    margin: 10px 50px ;
-    font-size: 14px;
+    margin: 20px 50px ;
+    font-size: 15px;
     border-color: #0D1C42;
     border-radius: 22px;
     background-color:  #0D1C42;
@@ -363,7 +364,7 @@ body {
     flex-wrap: wrap;
     width: 100%;
     min-height: 100vh;
-    margin-top: 570px;
+    margin-top: 590px;
     background-color: #F3E6D5;
     justify-content: space-evenly;
     justify-content: center;
@@ -457,7 +458,7 @@ body {
 /* features */
 @media (max-width:768px){
     .feature{
-    padding-top: 140px;
+    padding-top: 150px;
     min-height: 500px;
     overflow: hidden;
     display: block;
@@ -664,6 +665,9 @@ border-radius: 10px;
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: #F7F2EB;
+}
+.form{
+    margin-top: -50px;
 }
 .form h1{
     font-size: 30px;
