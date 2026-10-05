@@ -3,6 +3,11 @@
     margin: 0;
     font-family: "Rufina", serif;
 }
+
+html,
+body {
+    overflow-x: clip;
+}
 /* header */
 .header {
     min-height: 100vh;
