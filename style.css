@@ -360,17 +360,24 @@ body {
 @media (max-width:768px){
 /* about */
     .about{
+        height: auto; 
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    min-height: 100vh;
-    margin-top: 590px;
+    min-height: auto;
+    overflow: visible;
+    margin-top: 440px;
     background-color: #F3E6D5;
     justify-content: space-evenly;
     justify-content: center;
 }
-.acont1{
-    margin-top: -130px;
+.about.acont1{
+    display: block;
+    width: 100%;
+    visibility: visible;
+    opacity: 1;
+    order: 1;
+    position: relative;
 }
 .acont1 h1{
     font-size: 30px;
@@ -378,6 +385,9 @@ body {
     color:#2C2C2C ;
     padding-top: 10px;
     text-align: center;
+    display: block;
+    opacity: 1;
+    visibility: visible;
 }
 .acont1 p{
     width: 90%;
@@ -385,9 +395,13 @@ body {
     justify-content: center;
     align-items: center;
    padding-top: 1px;
+    display: block;
+    opacity: 1;
+    visibility: visible;
 }
 .aimg img{
-    width: 90%;
+    width: 95%;
+    order: 2;
     height: auto;
     object-fit: cover;
 }
@@ -397,7 +411,7 @@ body {
 /* feature */
 .feature{
     padding-top: 100px;
-    min-height: 500px;
+    min-height: 100vh;
     overflow: hidden;
     display: block;
     background-color: #FFF8CF;
@@ -407,7 +421,7 @@ body {
         100% 100%,
         0 100%
     );
-    margin-top: -130px;
+    margin-top: -136px;
 }
 .feature h1{
     font-size: 65px;
@@ -469,7 +483,7 @@ body {
         100% 100%,
         0 100%
     );
-    margin-top: -170px;
+    margin-top: -175px;
 }
 .feature h1{
     font-size: 30px;
@@ -557,13 +571,13 @@ body {
 background-color: #fff;
 height: 530px;
 border-radius: 10px;
+transition: 1s;
 }
 .pacard{
     display: flex;
     flex-wrap: wrap;
     padding-top: 50px;
     justify-content: space-evenly;
-    padding-bottom: ;
 }
 
 .pcard1 img{
@@ -598,6 +612,12 @@ border-radius: 10px;
     justify-content: space-evenly;
     gap: 15px;
     padding-bottom: 16px;
+}
+.pcard1:hover{
+background-color: #fff;
+height: 530px;
+border-radius: 10px;
+transition: 1s;
 }
 .pcard1 h1{
     font-size: 28px;
@@ -695,12 +715,11 @@ border-radius: 10px;
 }
 .cimg img{
     width: 97%;
-    padding:40px;
+    padding:15px 40px 15px 60px;
     height: auto;
     align-items: center;
     justify-content: center;
     align-self: center;
-    padding-top: 20px;
     object-fit: cover;
 }
 }
