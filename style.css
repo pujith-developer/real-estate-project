@@ -138,7 +138,7 @@ body {
 @media (max-width: 768px){
 
     .header {
-    min-height: 100vh;
+    min-height: 98vh;
     width: 100%;
     background-image: linear-gradient(rgba(38, 38, 40, 0.3)),url(images/landing.png);
     background-position: center;
@@ -293,7 +293,7 @@ body {
 
 .run{
     position: relative;
-    top: 100vh;
+    top: 99vh;
     width: 100%;
     display: block;
     margin: 0;
@@ -366,7 +366,7 @@ body {
     width: 100%;
     min-height: auto;
     overflow: visible;
-    margin-top: 795px;
+    margin-top: 595px;
     z-index: 4;
     background-color: #F3E6D5;
     justify-content: space-evenly;
