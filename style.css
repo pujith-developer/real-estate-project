@@ -143,9 +143,8 @@ body {
     background-image: linear-gradient(rgba(38, 38, 40, 0.3)),url(images/landing.png);
     background-position: center;
     background-size: cover;
-    object-fit: cover;
+    object-fit: contain;
     text-align: left;
-    padding: 0px 0;
     position: absolute;
 }
 /* nav */
@@ -330,6 +329,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    z-index: 3;
     min-height: 100vh;
     background-color: #F3E6D5;
     justify-content: space-between;
@@ -367,6 +367,7 @@ body {
     min-height: auto;
     overflow: visible;
     margin-top: 440px;
+    z-index: 4;
     background-color: #F3E6D5;
     justify-content: space-evenly;
     justify-content: center;
