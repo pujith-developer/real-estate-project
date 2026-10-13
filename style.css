@@ -293,7 +293,7 @@ body {
 
 .run{
     position: relative;
-    top: 99vh;
+    top: 98vh;
     width: 100%;
     display: block;
     margin: 0;
@@ -366,7 +366,7 @@ body {
     width: 100%;
     min-height: auto;
     overflow: visible;
-    margin-top: 595px;
+    margin-top: 665px;
     z-index: 4;
     background-color: #F3E6D5;
     justify-content: space-evenly;
